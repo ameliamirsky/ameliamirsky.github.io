@@ -1,0 +1,28 @@
+body {
+	color: #FFF4F1;
+	background-color: #B27D85;
+	font-size: 18px;
+	font-family: Merriweather;
+
+}
+
+	.sitemap{
+		float:left;
+		width:10%;
+	}
+
+	.greeting{
+		float:left;
+		width:70%;
+	}
+
+	.greeting-photo{
+		width:73.33%;
+		padding-left: 80px;
+
+	}
+
+	.bio{
+		float:left;
+		width:20%;
+	}

@@ -6,23 +6,48 @@ body {
 
 }
 
-	.sitemap{
-		float:left;
-		width:10%;
-	}
-
 	.greeting{
 		float:left;
 		width:70%;
 	}
 
 	.greeting-photo{
-		width:73.33%;
-		padding-left: 80px;
+		width:70%;
+		height: 700px
+		width:500px;
 
 	}
 
 	.bio{
 		float:left;
-		width:20%;
+		width:30%;
+		padding-top: 30px;
+
+	}
+
+	.project_1{
+		float:left;
+		width: 33.33%;
+		width:300px;
+
+	}
+
+	.project_1_photo{
+		float:left;
+		width:33.33%;
+		padding-top:30px;
+
+	}
+
+	.project_2{
+		float: left;
+		width: 33.33%;
+		width:300px;
+
+	}
+
+	.project_2_photo{
+		float: left;
+		width: 33.33%;
+		width: 300px;
 	}

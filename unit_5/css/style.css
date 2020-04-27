@@ -1,6 +1,8 @@
 
 	nav {
-		background-color:#B27D85;
+		background-color:#E8C66A;
+		border: 1px black solid;
+		padding:20px;
 		position: fixed;
     	right: 0;
     	margin: 15px;
@@ -11,20 +13,23 @@
 		padding: 5px;
 	}
 
-	.greeting{
+	.greeting-photo{
+		background-color:#FFC675;
+		border: 1px black solid;
+		padding: 20px;
 		float:left;
 		width:30%;
 		margin-top:30px;
 	}
 
-	.greeting-photo{
-		width:100%;
-	}
-
 	.bio{
+		background-color: #E89C6C;
+		border: 1px black solid;
+		padding: 20px;
 		float:left;
 		width:30%;
 		padding-top: 52px;
+		margin-left:50px;
 
 	}
 
@@ -60,4 +65,24 @@
 	background-color: #B27D85;
 	font-size: 18px;
 	font-family: Domine, serif;
-}
+	}
+
+	footer {
+		background-color:#FF957E;
+		border: 1px black solid;
+		padding: 20px;
+		position:absolute;
+		right:0;bottom:0;left:0;
+	}
+
+	section {
+		background-color:#FFE2B8;
+		border: 1px black solid;
+		padding: 20px;
+	}
+
+	header {
+		background-color:#FFED74;
+		border: 1px black solid;
+		padding: 20px;
+	}

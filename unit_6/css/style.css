@@ -1,0 +1,99 @@
+
+	nav {
+    	right: 0;
+    }
+
+    nav a {
+		color: black;
+		padding: 5px;
+		text-decoration: none;
+	}
+
+	.greeting-photo {
+		border: 1px black solid;
+		float: left;
+		width: 30%;
+		margin-top: 3%;
+		margin-left: 10%;
+	}
+
+	.bio{
+		padding: 20px;
+		float:left;
+
+	}
+
+	.project_1{
+		float:left;
+		width: 33.33%;
+		width:300px;
+
+	}
+
+	.project_1_photo{
+		float:left;
+		width:33.33%;
+		padding-top:30px;
+
+	}
+
+	.project_2{
+		float: left;
+		width: 33.33%;
+		width:300px;
+
+	}
+
+	.project_2_photo{
+		float: left;
+		width: 33.33%;
+		width: 300px;
+	}
+
+	body {
+	color: black;
+	font-size: 18px;
+	font-family: Domine, serif;
+	}
+
+	footer {
+		padding: 20px;
+		position:fixed;
+		right:0;bottom:0;left:0;
+		text-align: center;
+	}
+
+	section {
+		padding: 20px;
+	}
+
+	header {
+		padding: 20px;
+		top: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+		}
+
+	#two_column {
+		border: 1px black solid;
+		padding: 20px;
+	}
+
+	#right {
+		padding: 20px;
+		float: right;
+		width: 40%;
+		margin-right: 10%;
+		margin-top: 3%;
+	}
+
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}

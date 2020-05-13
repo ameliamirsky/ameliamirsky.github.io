@@ -1,0 +1,150 @@
+	body {
+	color: black;
+	font-size: 1.125em;
+	font-family: Domine, serif;
+	}
+
+/*	footer {
+		padding: 20px;
+		position:fixed;
+		right:0;bottom:0;left:0;
+		text-align: center;
+		margin: 20px;
+	}*/
+
+/*	section {
+		padding: 20px;
+	}*/
+
+	header {
+		padding: 1.6%;
+		top: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	nav {
+    	right: 0;
+    }
+
+	nav a {
+		padding: 5px;
+	}
+
+	a{
+		color: black;
+		text-decoration: none;
+	}
+
+	.home-photo {
+		border: 1px black solid;
+		float: left;
+		width: 30%;
+		margin-top: 3%;
+		margin-left: 10%;
+	}
+
+	.about-photo {
+		border: 1px black solid;
+		float: left;
+		width: 30%;
+		margin-top: 3%;
+		margin-left: 10%;
+	}
+
+	.bio{
+		padding: 4.3%;
+		float: left;
+	}
+
+	.project_1{
+		float: left;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.project_1_photo{
+		float: left;
+		padding-top: 5%;
+		margin-left: 10%;
+	}
+
+	.project_1_info{
+		border: 1px black solid;
+		background-color: #e6beae;
+		width: 15%;
+		float: right;
+		padding: 1%;
+		position: absolute;
+		top: 676px;
+		left: 800px;
+	}
+
+	.project_2{
+		float: left;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.project_2_photo{
+		float: right;
+		width: 62%;
+		padding-top: 6%;
+		margin-right: 10%;
+	}
+
+	.project_2_info{
+		border: 1px black solid;
+		background-color: #E1DBCB;
+		width: 12%;
+		float: left;
+		padding: 1%;
+		position: absolute;
+		top: 1390px;
+		left: 312px;
+	}
+
+	.project_3{
+		float: right;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.project_3_photo{
+		float: left;
+		width: 48%;
+		padding-top: 8%;
+		margin-left: 22%;
+	}
+
+	.project_3_info{
+		border: 1px black solid;
+		background-color: #eee4e1;
+		width: 17%;
+		float: right;
+		padding: 1%;
+		position: absolute;
+		top: 2116px;
+		right: 270px;
+	}
+
+	#two_column {
+		padding: 1.6%;
+	}
+
+	#right {
+		padding: 20px;
+		float: right;
+		width: 40%;
+		margin-right: 10%;
+		margin-top: 3%;
+	}
+
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}

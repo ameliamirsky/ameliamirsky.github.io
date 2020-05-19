@@ -23,6 +23,11 @@
 		justify-content: space-between;
 	}
 
+	h2 {
+		padding-left: 1.6%;
+		font-size: 1.17em;
+	}
+
 	nav {
     	right: 0;
     }
@@ -31,20 +36,29 @@
 		padding: 5px;
 	}
 
-	a{
+	a {
 		color: black;
 		text-decoration: none;
 	}
 
-	.home-photo {
-		border: 1px black solid;
-		float: left;
-		width: 30%;
-		margin-top: 3%;
-		margin-left: 10%;
+	.bio a.about:hover {
+		color: green;
 	}
 
-	.about-photo {
+	.bio a.work:hover {
+		color: pink;
+	}
+
+/*	.bio a {
+		text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000, -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
+		color: pink;
+	}*/
+
+/*	.bio a:hover {
+		color: black;
+	}*/
+
+	.home-photo {
 		border: 1px black solid;
 		float: left;
 		width: 30%;
@@ -55,6 +69,14 @@
 	.bio{
 		padding: 4.3%;
 		float: left;
+	}
+
+	.about-photo {
+		border: 1px black solid;
+		float: left;
+		width: 30%;
+		margin-top: 3%;
+		margin-left: 10%;
 	}
 
 	.project_1{
@@ -148,3 +170,26 @@
 		clear: both;
 		height: 0;
 	}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex .flex-grow {
+    flex: 1;
+    margin: 5em;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+.about-text {
+    max-width: 350px;
+}

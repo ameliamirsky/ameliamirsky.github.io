@@ -1,0 +1,88 @@
+body {
+    color: black;
+    font-size: 1.125em;
+    font-family: Open Sans, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+}
+
+.header a:hover {
+    font-weight: bold;
+}
+
+.header-container {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: auto;
+    display: flex;
+    margin: auto;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    height: 36px;
+    padding: 8px 2px;
+    align-items: center;
+}
+
+.menu a {
+    padding: 5px
+}
+
+.menu a:hover {
+    font-weight: bold;
+}
+
+.introduction {
+    width: 75%;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex .flex-grow {
+    flex: 1;
+    margin: 5em;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.greeting-text a.about:hover {
+    color: #E8C2CA;
+}
+
+.greeting-text a.work:hover {
+    color: #D1B3C4;
+}
+
+.greeting-text {
+    max-width: 760px;
+}
